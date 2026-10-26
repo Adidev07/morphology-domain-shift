@@ -1,0 +1,29 @@
+{
+  "project": "Microscopy Morphology Under Domain Shift",
+  "domain_results": {
+    "raw": {
+      "accuracy": 0.535,
+      "precision": 0.535,
+      "recall": 1.0,
+      "f1": 0.6970684039087948,
+      "tp": 107,
+      "fp": 93,
+      "fn": 0,
+      "tn": 0
+    },
+    "normalized": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 107,
+      "fp": 0,
+      "fn": 0,
+      "tn": 93
+    }
+  },
+  "majority_baseline_accuracy": 0.465,
+  "training_brightness": 1.0,
+  "test_brightness": 1.8,
+  "labels": "Fictional sparse/dense morphology; no diagnostic labels"
+}
